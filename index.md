@@ -1,7 +1,6 @@
 ---
 title: It is greater to be <h2 style="display:inline"> a good shoemaker </h2> than a luxurious and incompetent king - Sri Aurobindo
 layout: default
-mathjax: true
 ---
 
 Some samples of the content in this blog are given below. In the unlikely even that you find them interesting, kindly check out other entries using the links given in the sidebar.
