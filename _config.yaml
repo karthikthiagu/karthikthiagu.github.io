@@ -1,0 +1,7 @@
+name: karthikthiagu
+markdown: kramdown
+collections: 
+  notes:
+    output: true
+  music:
+    output: true

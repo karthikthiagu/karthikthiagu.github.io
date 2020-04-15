@@ -1,0 +1,99 @@
+
+body {
+	/*font-family: Consolas, monaco, monospace;*/
+  font-family: sans-serif;
+	background-color: white;
+	line-height: 1.6;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	padding: 10px;
+}
+
+blockquote{
+	padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	padding-right: 20px;
+	border-style: solid;
+  border-width: thin;
+  max-width: 80%;
+  background: #f2f2f2;
+}
+
+#sidebar {
+  position: fixed;
+  top : 0;
+  width : 18%;
+  right: 0;
+  height : 100%;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  background-image: url("/assets/interlaced.png");
+  background-repeat:repeat;
+}
+
+#sidebar ul{
+	text-align: left;
+	list-style: none;
+	line-height: 50px;
+}
+
+#title  {
+	width: 56.0%;
+	/*position: sticky;*/
+	top: 0;
+	background: inherit;
+    z-index: 2
+}
+
+#title h1, p {
+	display : inline;
+}
+
+
+.content  {
+	width: 56.0%;
+	left : 0;
+	margin-left: 0;
+	text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
+figure figcaption{
+	text-align: center;
+	padding-right: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+  	width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+details {
+    padding: 15px;
+    background-color: #f6f7f8;
+    margin-bottom: 20px;
+}
+summary {
+    cursor: pointer;
+}

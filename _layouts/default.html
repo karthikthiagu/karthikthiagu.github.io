@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>aGoodShoemaker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" />
+    {% include mathjax.html %}
+
+</head>
+
+<body>
+
+
+	<div id="sidebar">
+        <br><br>
+		<h1>
+			a <br> good <br> shoemaker
+		</h1>
+        
+		<ul>
+            <li> <a href="/index.html"> Home </a> </li> 
+			<li> <a href="/articles.html"> Articles </a> </li> 
+			<li> <a href="/music.html"> Music </a> </li> 
+		</ul>
+
+	</div>
+
+	<div id="title">
+        {{ page.title }}
+		<hr>
+	</div>
+
+	<div class="content">
+
+
+        {{ content }}
+
+	</div>
+
+  </div>
+
+</body>
+
+</html>
+
